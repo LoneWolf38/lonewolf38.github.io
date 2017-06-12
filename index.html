@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
@@ -43,10 +44,12 @@
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-        <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a href="https://lonewolf38.github.io/about.html">About</a></li>
-	         <li><a href="Debabrata_Choudhury_CV.pdf">Resume</a></li>
+        <ul itemscope itemtype="http://schema.org/SoftwareApplication" id="nav" class="nav">
+            <li itemprop="url" class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a href="https://lonewolf38.github.io/about.html">
+		    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name">About</span></span></a></li>
+	         <li><a itemprop="downloadUrl" href="Debabrata_Choudhury_CV.pdf">Resume</a></li>
             <li><a href="https://lonewolf38blog.wordpress.com">Blog</a></li>
          </ul> <!-- end #nav -->
 
@@ -54,18 +57,20 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">Debabrata Choudhury</h1>
-            <h3><span>A Geek and a hardcore *Nix user</p></span>
+		 <span itemscope itemtype="http://schema.org/SoftwareApplication" itemref="_url6">
+			 <h1 itemprop="name" class="responsive-headline">Debabrata Choudhury</h1></span>
+            <h3><span>A Geek and a hardcore *Nix user</span>
             </h3>
             <hr />
             <ul class="social">
-               <li><a href="https://www.facebook.com/deba007rkl"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://twitter.com/Deba97Choudhury"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="https://plus.google.com/102728753170579658299"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/lonewolf38"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/drake_c97/"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://github.com/LoneWolf38"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.quora.com/profile/Debabrata-Choudhury"><i class="fa fa-quora"></i></a></li>
+               <li><a id="_url6" itemprop="url" href="https://www.facebook.com/deba007rkl"><i class="fa fa-facebook"></i></a></li>
+               <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://twitter.com/Deba97Choudhury"><i class="fa fa-twitter"></i></a></li>
+               <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://plus.google.com/102728753170579658299"><i class="fa fa-google-plus"></i></a></li>
+               <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://www.linkedin.com/in/lonewolf38"><i class="fa fa-linkedin"></i></a></li>
+               <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://www.instagram.com/drake_c97/"><i class="fa fa-instagram"></i></a></li>
+               <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://github.com/LoneWolf38"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.quora.com/profile/Debabrata-Choudhury"><i class="fa fa-quora" aria-hidden="true"></i>
+</a></li>
             </ul>
          </div>
       </div>
