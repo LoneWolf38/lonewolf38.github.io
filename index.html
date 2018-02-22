@@ -8,7 +8,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>LoneWolf38</title>
+	<title>My Website</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 <meta name="google-site-verification" content="maJUZWrQIKXUNP6AHB6zMYmMZD1dkRY3Id7Zyt3XvwE" />
@@ -27,17 +27,25 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 
-   <!-- Favicons
-	================================================== -->
+
 	<link rel="shortcut icon" href="favicon1.png" >
 
 </head>
 
 <body>
 
+
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+
+
+
    <!-- Header
    ================================================== -->
-   <header id="home">
+   <header id="home part" >
 
       <nav id="nav-wrap">
 
@@ -55,21 +63,6 @@
 
       </nav> <!-- end #nav-wrap -->
 
-<!--  <div class="container">
-	<div class="row">
-        <div class="profile-header-container">   
-    		<div class="profile-header-img">
-                <img class="img-circle" src="https://lonewolf38.github.io/Profile_pic.jpeg" />
-            </div>
-        </div> 
-	</div>
-</div>
-	   
-	-->   
-	   
-	   
-	   
-	   
       <div class="row banner">
          <div class="banner-text">
 		 <span itemscope itemtype="http://schema.org/SoftwareApplication" itemref="_url6">
@@ -86,25 +79,36 @@
                  itemtype="http://schema.org/SoftwareApplication"><a
                    itemprop="url" href="https://www.instagram.com/itzmedeba/"><i class="fa fa-instagram"></i></a></li>
                <li itemscope itemtype="http://schema.org/SoftwareApplication"><a itemprop="url" href="https://github.com/LoneWolf38"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.quora.com/profile/Debabrata-Choudhury"><i class="fa fa-quora" aria-hidden="true"></i>
+               <li><a href="mailto:sudodeba97.iiitbbsr@gmail.com"><i class="fa fa-envelope"></i>
 </a></li>
             </ul>
          </div>
       </div>
 
-    
-   </header> 
-	
+
+   </header>
+
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-	
+
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+  <!--<script src="js/jquery.particleground.js"></script>
+   <script src="js/demo.js"></script>-->
+  <script type="text/javascript">
+    $(document).ready(function() {
 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+    }, 3000);
+
+});
+
+  </script>
 </body>
 
 </html>
