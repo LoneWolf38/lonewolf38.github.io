@@ -49,4 +49,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-include: [_layouts]
+include: [_pages]
