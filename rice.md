@@ -1,7 +1,3 @@
----
-title: Debabrata Choudhury
----
-
 
 > **Ricing:** Making improvements to a system that don't actually do anyone any good, and can sometimes have negative ramifications.
 

@@ -11,6 +11,7 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', 'none')
       $('.panel-cover').css('width', '100%')
      $('.panel-cover').css('background-position', 'center')
+     return
     }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
