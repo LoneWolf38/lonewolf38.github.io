@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2017/end-of-32bit-support/</loc>
+      <loc>http://localhost:4000/linux/2017/05/18/end-of-32bit-support.html</loc>
       
         <lastmod>2017-05-18T07:34:23+05:30</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2017/why-we-use-linux/</loc>
+      <loc>http://localhost:4000/linux/2017/05/12/why-we-use-linux.html</loc>
       
         <lastmod>2017-05-12T06:34:23+05:30</lastmod>
       
@@ -38,7 +38,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2018-06-30T17:50:47+05:30</lastmod>
+        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -53,7 +53,7 @@
     <url>
       <loc>http://localhost:4000/humans.txt</loc>
       
-        <lastmod>2018-06-30T17:50:47+05:30</lastmod>
+        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -72,7 +72,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2018-06-30T17:50:47+05:30</lastmod>
+        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
