@@ -1,6 +1,6 @@
 ---
 title:  "What is Ricing?"
-date:   2017-05-16 5:04:23
+date:   2018-07-03 5:04:23
 categories: [linux]
 tags: [Ricing]
 ---
