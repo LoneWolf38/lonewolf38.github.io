@@ -42,5 +42,5 @@ Of course we can’t tell non-Linuxers we use Linux because it’s fun – they�
 
 And maybe, just maybe, next time someone asks me why I use Linux, I’ll flash a huge smile and answer: “Because using Linux is FUN!”
 
-![Reason for Using Linux]()
+![Reason for Using Linux](/images/wethelinux.jpg)
 
