@@ -23,34 +23,59 @@ When a site is updated by its owner, all nodes serving that site (previous visit
 
 ZeroNet comes with a built-in SQL database. This makes content-heavy site development easy. The DB is also synced with hosting nodes with incremental updates.
 Why ZeroNet?
-     We believe in open, free, and uncensored communication.
-    No censorship: After something is published there is no way to remove it.
-    No single point of failure: Content remains online even if only one peer is serving it.
-    Impossible to shut down: It's nowhere because it's everywhere. Content is served by any user who wishes to.
-    Fast: ZeroNet uses BitTorrent technology to deliver content faster than centralised servers.
-    Works offline: You can access the site even if your internet is unavailable.
-    Secure: Content ownership is secured using the same cryptography that secures your Bitcoin wallet.
+    
+   1. We believe in open, free, and uncensored communication.
+    
+   2. No censorship: After something is published there is no way to remove it.
+    
+   3. No single point of failure: Content remains online even if only one peer is serving it.
+    
+   4. Impossible to shut down: It's nowhere because it's everywhere. Content is served by any user who wishes to.
+    
+   5. Fast: ZeroNet uses BitTorrent technology to deliver content faster than centralised servers.
+    
+   6. Works offline: You can access the site even if your internet is unavailable.
+    
+   7. Secure: Content ownership is secured using the same cryptography that secures your Bitcoin wallet.
 
 Features:
-    Easy, zero configuration setup.
-    Password-less BIP32 based authorization: Your account is protected by the same cryptography as your Bitcoin wallet.
-    Real-time updated sites.
-    Namecoin .bit domains support.
-    SQL Database support: Allows for easier site development and faster page load times.
-    Anonymity: Full Tor network support with .onion hidden services instead of ipv4 addresses
-    TLS encrypted connections.
-    Automatic, uPnP port opening.
-    Plugin for multiuser (openproxy) support.
-    Works with any browser/OS.
+    
+  1.  Easy, zero configuration setup.
+
+  2.  Password-less BIP32 based authorization: Your account is protected by the same cryptography as your Bitcoin wallet.
+
+  3.  Real-time updated sites.
+
+  4.  Namecoin .bit domains support.
+
+  5.  SQL Database support: Allows for easier site development and faster page load times.
+
+  6.  Anonymity: Full Tor network support with .onion hidden services instead of ipv4 addresses
+
+  7.  TLS encrypted connections.
+
+  8.  Automatic, uPnP port opening.
+
+  9.  Plugin for multiuser (openproxy) support.
+
+  10.  Works with any browser/OS.
+
 
 Other Benefits of ZeroNet:
-    100% transparent sites: Anyone can audit the full working mechanism
-    One click site cloning:Create your own version of any site
-    No backend code: Execute SQL commands directly from javascript with zero network latency
-    Instant CDN: Your content will be distributed around the world
-    Could work on non-internet networks( Bluetooth, Wifi-direct, Radio communication Meshnets)
-    Zero Discrimination: Same Zero cost infrastructure and opportunity for anyone
-    Zero trust: Impossible to modify your site without the private key
+    
+   1. 100% transparent sites: Anyone can audit the full working mechanism
+   
+   2. One click site cloning:Create your own version of any site
+   
+   3. No backend code: Execute SQL commands directly from javascript with zero network latency
+   
+   4. Instant CDN: Your content will be distributed around the world
+   
+   5. Could work on non-internet networks( Bluetooth, Wifi-direct, Radio communication Meshnets)
+   
+   6. Zero Discrimination: Same Zero cost infrastructure and opportunity for anyone
+   
+   7. Zero trust: Impossible to modify your site without the private key
 
 For more information on ZeroNet
 
