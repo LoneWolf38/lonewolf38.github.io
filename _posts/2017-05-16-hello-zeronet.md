@@ -79,6 +79,10 @@ Other Benefits of ZeroNet:
 
 For more information on ZeroNet
 
-Zeronet Website: https://zeronet.io
+Website[Zeronet Website]
 
-Zeronet sites: https://www.reddit.com/r/zeronet/
+SubReddit[Zeronet sites]
+
+[Zeronet Website]: https://zeronet.io
+
+[Zeronet sites]: https://www.reddit.com/r/zeronet/
