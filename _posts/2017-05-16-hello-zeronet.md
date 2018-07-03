@@ -1,6 +1,6 @@
 ---
 title:  "Hello, ZeroNet"
-date:   2017-05-12 1:04:23
+date:   2017-05-16 1:04:23
 categories: [Technology]
 tags: [Networking]
 ---
@@ -23,8 +23,7 @@ When a site is updated by its owner, all nodes serving that site (previous visit
 
 ZeroNet comes with a built-in SQL database. This makes content-heavy site development easy. The DB is also synced with hosting nodes with incremental updates.
 Why ZeroNet?
-
-    We believe in open, free, and uncensored communication.
+     We believe in open, free, and uncensored communication.
     No censorship: After something is published there is no way to remove it.
     No single point of failure: Content remains online even if only one peer is serving it.
     Impossible to shut down: It's nowhere because it's everywhere. Content is served by any user who wishes to.
@@ -32,8 +31,7 @@ Why ZeroNet?
     Works offline: You can access the site even if your internet is unavailable.
     Secure: Content ownership is secured using the same cryptography that secures your Bitcoin wallet.
 
-Features
-
+Features:
     Easy, zero configuration setup.
     Password-less BIP32 based authorization: Your account is protected by the same cryptography as your Bitcoin wallet.
     Real-time updated sites.
@@ -45,8 +43,7 @@ Features
     Plugin for multiuser (openproxy) support.
     Works with any browser/OS.
 
-Other Benefits of ZeroNet
-
+Other Benefits of ZeroNet:
     100% transparent sites: Anyone can audit the full working mechanism
     One click site cloning:Create your own version of any site
     No backend code: Execute SQL commands directly from javascript with zero network latency
