@@ -5,9 +5,174 @@
     <description>A Hardcore Nix user</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Jul 2018 07:29:43 +0530</pubDate>
-    <lastBuildDate>Sun, 01 Jul 2018 07:29:43 +0530</lastBuildDate>
+    <pubDate>Sun, 05 Aug 2018 16:45:02 +0530</pubDate>
+    <lastBuildDate>Sun, 05 Aug 2018 16:45:02 +0530</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Why I3wm</title>
+        <description>
+</description>
+        <pubDate>Thu, 12 Jul 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000//2018/07/12/why-i3wm.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2018/07/12/why-i3wm.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why Terminal Applications</title>
+        <description>
+</description>
+        <pubDate>Tue, 10 Jul 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000//2018/07/10/why-terminal-applications.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2018/07/10/why-terminal-applications.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Why I Use Archlinux</title>
+        <description>
+</description>
+        <pubDate>Thu, 05 Jul 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000//2018/07/05/why-i-use-archlinux.html</link>
+        <guid isPermaLink="true">http://localhost:4000//2018/07/05/why-i-use-archlinux.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>What is Ricing?</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Making improvements to a system that don’t actually do anyone any good, and can sometimes have negative ramifications”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rice/Ricing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Rice” is a word that is commonly used to refer to making visual improvements and customizations on one’s desktop. It was inherited from the practice of customizing cheap Asian import cars to make them appear to be faster than they actually were - which was also known as “ricing”. Here on /r/unixporn , the word is accepted by the majority of the community and is used sparingly to refer to a visually attractive desktop upgraded beyond the default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR Let Me tell you a story&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You are a Linux User(Other wise you wouldn’t be interested), you are hanging out with some friends and there’s always a guy who says “check out my “awesome” desktop setup” where he had riced his linux distro. You with all your friends are thinking his setup is &lt;strong&gt;dope af&lt;/strong&gt;. But when you ask him how to do it, he, being a huge jerk, uses all the nerdy words like “Tiling window manager, Polybar, dotfiles, /r/unixporn, Ricing” and you don’t even heard them because you always have been a Gnome/Unity guy. So you went to internet to find some thing about ricing and how to do them but you are overwhelmed by all the words used there and so you give up.&lt;/p&gt;
+
+&lt;p&gt;But you are not here to be that guy, you are here to know what’s the fuzz about. So let me introduce you to the world of &lt;strong&gt;“Ricing”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who is this guide for?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Those who are interested in ricing or would like to know what it is, whether they are experienced Linux users or complete beginners.&lt;/p&gt;
+
+&lt;p&gt;Those who want control over the way their desktop environment [DE] looks, far beyond the offerings of Windows and OS X.&lt;/p&gt;
+
+&lt;p&gt;Those who dislike extra/unneeded features cluttering their DE. With ricing and Linux in general, you can keep what you want/need and remove everything else. This is especially helpful for older systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;The term ‘rice’ is used to describe a person’s unix desktop where ‘ricing’ is when someone is custom their desktop such as the icons, panels, or system interface. When it comes to ricing a tiling window manager though, the ricing of a user’s system becomes much more involved. Basic things such as the panel bar and application launcher must be configured by the user.&lt;/p&gt;
+
+&lt;p&gt;The reddit community &lt;a href=&quot;https://www.reddit.com/r/unixporn&quot;&gt;/r/unixporn&lt;/a&gt; is a great place to stay up to date on what people are using for their setups.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;List of Things to know before ricing your system&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Window Managers&lt;/em&gt;&lt;/strong&gt;  : A window manager is software for an operating system that manages the placement of open windows. There are many window managers for Linux, most commonly used are
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://i3wm.org&quot;&gt;i3wm&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/baskerville/bspwm&quot;&gt;bspwm&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://openbox.org&quot;&gt;openbox&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://awesomewm.org&quot;&gt;AwesommeWM&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://fluxbox.org&quot;&gt;FluxBox&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://dwm.suckless.org&quot;&gt;DWM&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Desktop Environment&lt;/em&gt;&lt;/strong&gt; :  A desktop environment is a collection of programs bundled together to make a workspace. It comes with a window manager, a panel, a set of default programs (text editor, music player, etc.), a file manager, a terminal emulator, and many, many other things. Some commonly used are
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnome.org&quot;&gt;Gnome&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://unity3d.org&quot;&gt;Unity&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.kde.org&quot;&gt;KDE&lt;/a&gt;,&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Panels&lt;/em&gt;&lt;/strong&gt; : Panels (aka bars) are used to display everything from current desktops to active windows to system informaton. They have very similiar behaviour to the bar you would expect on Windows and OSX. Some commonly used are
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;//https://github.com/jaagr/polybar&quot;&gt;Polybar&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://https://wiki.archlinux.org/index.php/tint2&quot;&gt;Tint&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://https://github.com/LemonBoy/bar&quot;&gt;Lemonbar&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Program Launchers&lt;/em&gt;&lt;/strong&gt; : A launcher is a program displaying a dialog to search for an action, typically launch an application. Many are not limited to just this, and allow you to perform other operations such as open up files and folders on your computer. Some commonly used are
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tools.suckless.org/dmenu/&quot;&gt;Dmenu&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/DaveDavenport/rofi&quot;&gt;Rofi&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Terminal Emulators&lt;/em&gt;&lt;/strong&gt; : A terminal emulator, terminal application, term, or tty for short, is a program that emulates a video terminal within some other display architecture. Though typically synonymous with a shell or text terminal, the term terminal covers all remote terminals, including graphical interfaces. A terminal emulator inside a graphical user interface is often called a terminal window. Some commonly used are
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gnometerminator.blogspot.com/p/introduction.html&quot;&gt;Terminator&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/rxvt-unicode&quot;&gt;urxvt&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://st.suckless.org/&quot;&gt;Suckless&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Shells&lt;/em&gt;&lt;/strong&gt;: A interactive program for accessing operating system’s services.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://terminalsare.sexy/&quot;&gt;Terminals are Sexy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;Bash&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/awesome-lists/awesome-bash&quot;&gt;Awesome BASH&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.zsh.org/&quot;&gt;Zsh&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://ohmyz.sh/&quot;&gt;Oh-My-Zsh&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/unixorn/awesome-zsh-plugins&quot;&gt;Awesome ZSH&lt;/a&gt;
+    -  &lt;a href=&quot;https://fishshell.com/&quot;&gt;fish&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/oh-my-fish/oh-my-fish&quot;&gt;Oh-my-fish&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/fisherman/awesome-fish-shell&quot;&gt;Awesome fish&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Image viewers&lt;/em&gt;&lt;/strong&gt; :
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https:///www.johnhawthorn.com/meh/&quot;&gt;meh&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://feh.finalrewind.org/&quot;&gt;feh&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Audio&lt;/em&gt;&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/MusicPlayerDaemon/MPD&quot;&gt;mpd&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://moc.daper.net/&quot;&gt;moc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://cmus.github.io/&quot;&gt;cmus&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;em&gt;Video&lt;/em&gt;&lt;/strong&gt; : No other than &lt;a href=&quot;https://mpv.io/&quot;&gt;mpv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;em&gt;SystemInfo&lt;/em&gt;&lt;/strong&gt; : &lt;a href=&quot;https://github.com/dylanaraps/neofetch&quot;&gt;Neofetch&lt;/a&gt;, &lt;a href=&quot;https://github.com/KittyKatt/screenFetch&quot;&gt;Screenfetch&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Screenshot&lt;/em&gt;&lt;/strong&gt;: &lt;a href=&quot;https://github.com/dreamer/scrot&quot;&gt;scrot&lt;/a&gt;, &lt;a href=&quot;https://shutter-project.org/&quot;&gt;shutter&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Best distro for ricing is Arch Linux. It’s my personal opinion. I just love Arch linux(&lt;a href=&quot;https://archlabslinux.com/&quot;&gt;Arch labs&lt;/a&gt; or &lt;a href=&quot;https://arcolinux.info&quot;&gt;Arcolinux&lt;/a&gt; for ease) and their philosophy &lt;strong&gt;&lt;em&gt;“Keep it simple, Stupid”&lt;/em&gt;&lt;/strong&gt;.&lt;br /&gt;
+  You can also use ubuntu but you can’t do all the cool things which you can do with Arch easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It will take time to get the hang of it but once the adrenaline kicks in, I gurantee you, you will feel awesome and also you could be that jerk in the above story.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Some Examples&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//images/rice.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;//images/rice1.png&quot; alt=&quot;image2&quot; /&gt;
+&lt;img src=&quot;//images/rice2.png&quot; alt=&quot;image6&quot; /&gt;
+&lt;img src=&quot;//images/rice3.png&quot; alt=&quot;image3&quot; /&gt;
+&lt;img src=&quot;//images/rice4.png&quot; alt=&quot;image4&quot; /&gt;
+&lt;img src=&quot;//images/rice5.png&quot; alt=&quot;image5&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 Jul 2018 10:34:23 +0530</pubDate>
+        <link>http://localhost:4000//linux/2018/07/03/what-is-ricing.html</link>
+        <guid isPermaLink="true">http://localhost:4000//linux/2018/07/03/what-is-ricing.html</guid>
+        
+        <category>Ricing</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>End Of 32Bit Support in Arch Linux</title>
@@ -34,6 +199,130 @@
         
         
         <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello, ZeroNet</title>
+        <description>&lt;p&gt;Every one wants to publish their own websites and blogs but some don’t want the hosting fees, some care about their anonymity, some worry that their data will be hacked. Now there’s a solution to this problem: ZeroNet.&lt;/p&gt;
+
+&lt;p&gt;ZeroNet is a decentralized censorship-resistant web-platform for static and dynamic websites using Bitcoin crypto and Bittorrent Network.&lt;/p&gt;
+
+&lt;p&gt;Everyone of us must be familiar with “torrent”. This is because most of the file sharing (&amp;gt;200mb) over the internet is done through BitTorrent Network. For those who don’t know BitTorrent is a communication protocol of P2P file sharing which is used to distribute data and files which are of larger sizes over internet.The BitTorrent protocol can be used to reduce the server and network impact of distributing large files. Rather than downloading a file from a single source server, the BitTorrent protocol allows users to join a “swarm” of hosts to upload to/download from each other simultaneously. The protocol is an alternative to the older single source, multiple mirror sources technique for distributing data, and can work effectively over networks with lower bandwidth. Using the BitTorrent protocol, several basic computers, such as home computers, can replace large servers while efficiently distributing files to many recipients. This lower bandwidth usage also helps prevent large spikes in internet traffic in a given area, keeping internet speeds higher for all users in general, regardless of whether or not they use the BitTorrent protocol.&lt;/p&gt;
+
+&lt;p&gt;But main question arises how ZeroNet is using this as a web platform for hosting websites?&lt;/p&gt;
+
+&lt;p&gt;As we all know websites are nothing but a collection of web pages stored in a web server which in turn is connected to internet. As a web server is used to store this web pages and distribute them to the computers which are trying to access that website so why not use the BitTorrent Protocol instead of regular internet protocols like http and https. This is the basic idea behind ZeroNet. When we try to access any website we basically do the same thing but we never download the whole website web pages to our local hard drive instead they are only displayed on our web browsers. Instead of this we can download the whole website files and start serving the website as a web server as we did in Torrent network (movies,videos,etc). ZeroNet also uses BitCoin Encryption which is self explanatory as to how safe and secure this network is. This is an excellent replacement for Github websites, best place for hosting web blogs and marketing websites and news websites. You can also use the Tor network to hide your real IP address.&lt;/p&gt;
+
+&lt;p&gt;If you believe in open,free,uncensored network and communication then ZeroNet is the place for you.&lt;/p&gt;
+
+&lt;p&gt;Users can publish static or dynamic websites into ZeroNet and visitors can choose to also serve the website. Websites will remain online even if it is being served by only one peer.&lt;/p&gt;
+
+&lt;p&gt;When a site is updated by its owner, all nodes serving that site (previous visitors) will receive only the incremental updates done to the site content.&lt;/p&gt;
+
+&lt;p&gt;ZeroNet comes with a built-in SQL database. This makes content-heavy site development easy. The DB is also synced with hosting nodes with incremental updates.
+Why ZeroNet?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We believe in open, free, and uncensored communication.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;No censorship: After something is published there is no way to remove it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;No single point of failure: Content remains online even if only one peer is serving it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Impossible to shut down: It’s nowhere because it’s everywhere. Content is served by any user who wishes to.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fast: ZeroNet uses BitTorrent technology to deliver content faster than centralised servers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Works offline: You can access the site even if your internet is unavailable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Secure: Content ownership is secured using the same cryptography that secures your Bitcoin wallet.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Features:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Easy, zero configuration setup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Password-less BIP32 based authorization: Your account is protected by the same cryptography as your Bitcoin wallet.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Real-time updated sites.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Namecoin .bit domains support.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;SQL Database support: Allows for easier site development and faster page load times.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Anonymity: Full Tor network support with .onion hidden services instead of ipv4 addresses&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;TLS encrypted connections.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Automatic, uPnP port opening.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Plugin for multiuser (openproxy) support.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Works with any browser/OS.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Other Benefits of ZeroNet:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;100% transparent sites: Anyone can audit the full working mechanism&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;One click site cloning:Create your own version of any site&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;No backend code: Execute SQL commands directly from javascript with zero network latency&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instant CDN: Your content will be distributed around the world&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Could work on non-internet networks( Bluetooth, Wifi-direct, Radio communication Meshnets)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zero Discrimination: Same Zero cost infrastructure and opportunity for anyone&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zero trust: Impossible to modify your site without the private key&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more information on ZeroNet&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zeronet.io&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/zeronet/&quot;&gt;SubReddit&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 16 May 2017 10:34:23 +0530</pubDate>
+        <link>http://localhost:4000//technology/2017/05/16/hello-zeronet.html</link>
+        <guid isPermaLink="true">http://localhost:4000//technology/2017/05/16/hello-zeronet.html</guid>
+        
+        <category>Networking</category>
+        
+        
+        <category>Technology</category>
         
       </item>
     
@@ -83,7 +372,7 @@
 
 &lt;p&gt;And maybe, just maybe, next time someone asks me why I use Linux, I’ll flash a huge smile and answer: “Because using Linux is FUN!”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Reason for Using Linux&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/wethelinux.jpg&quot; alt=&quot;Reason for Using Linux&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 12 May 2017 06:34:23 +0530</pubDate>

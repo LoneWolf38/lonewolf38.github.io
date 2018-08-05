@@ -3,9 +3,84 @@
   
     
     <url>
+      <loc>http://localhost:4000/2018/07/12/why-i3wm.html</loc>
+      
+        <lastmod>2018-07-12T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2018/07/10/why-terminal-applications.html</loc>
+      
+        <lastmod>2018-07-10T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2018/07/05/why-i-use-archlinux.html</loc>
+      
+        <lastmod>2018-07-05T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/linux/2018/07/03/what-is-ricing.html</loc>
+      
+        <lastmod>2018-07-03T10:34:23+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/linux/2017/05/18/end-of-32bit-support.html</loc>
       
         <lastmod>2017-05-18T07:34:23+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/technology/2017/05/16/hello-zeronet.html</loc>
+      
+        <lastmod>2017-05-16T10:34:23+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -38,7 +113,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
+        <lastmod>2018-08-05T16:45:02+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -53,7 +128,7 @@
     <url>
       <loc>http://localhost:4000/humans.txt</loc>
       
-        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
+        <lastmod>2018-08-05T16:45:02+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -72,7 +147,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2018-07-01T07:29:43+05:30</lastmod>
+        <lastmod>2018-08-05T16:45:02+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>

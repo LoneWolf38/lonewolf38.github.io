@@ -100,7 +100,11 @@ ___Some Examples___
 
 
 ![image]({{ site.baseurl }}/images/rice.png)
-![image2]({{ site.baseurl }}/images/rice2.jpg)
+![image2]({{ site.baseurl }}/images/rice1.png)
+![image6]({{ site.baseurl }}/images/rice2.png)
+![image3]({{ site.baseurl }}/images/rice3.png)
+![image4]({{ site.baseurl }}/images/rice4.png)
+![image5]({{ site.baseurl }}/images/rice5.png)
 
 
 [unixporn]:https://www.reddit.com/r/unixporn
